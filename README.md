@@ -8,7 +8,7 @@
 
 ```sh
 $ npm install
-$ system_profiler -xml SPSoftwareDataType > ~/Desktop/InstalledApps.spx 
+$ system_profiler -xml SPApplicationsDataType > ~/Desktop/InstalledApps.spx 
 $ node index.js ~/Desktop/InstalledApps.spx > ~/Desktop/InstalledApps.csv
 ```
 
