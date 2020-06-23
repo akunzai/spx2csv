@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "plist": "^2.0.1"
+    "plist": "^3.0.1"
   },
   "engines": {
-      "node": ">=4.0.0"
+    "node": ">=4.0.0"
   }
 }
