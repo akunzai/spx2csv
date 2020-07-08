@@ -1,17 +1,27 @@
 {
   "name": "spx2csv",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "convert spx to csv",
+  "main": "./index.js",
+  "bin": "./index.js",
+  "homepage": "https://github.com/akunzai/spx2csv",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akunzai/spx2csv.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Charley Wu",
+    "email": "akunzai@gmail.com",
+    "url": "https://github.com/akunzai"
+  },
+  "license": "MIT",
   "dependencies": {
     "plist": "^3.0.1"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">= 8"
   }
 }
