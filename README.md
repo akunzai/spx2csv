@@ -7,8 +7,6 @@
 ## USAGE
 
 ```sh
-npm install
 system_profiler -xml SPApplicationsDataType > ~/Desktop/InstalledApps.spx
-node index.js ~/Desktop/InstalledApps.spx > ~/Desktop/InstalledApps.csv
+npx github:akunzai/spx2csv ~/Desktop/InstalledApps.spx > ~/Desktop/InstalledApps.csv
 ```
-

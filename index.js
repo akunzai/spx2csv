@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+'use strict';
+
 if (process.argv.length < 3) {
   console.log('USAGE: node index.js InstalledApps.spx');
   return;
