@@ -4,7 +4,7 @@
 
 - [Node](https://nodejs.org/) version >= 8.2.0
 
-## USAGE
+## Usage
 
 ```sh
 system_profiler -xml SPApplicationsDataType > ~/Desktop/InstalledApps.spx
