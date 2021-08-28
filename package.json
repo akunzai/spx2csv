@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "plist": "^3.0.3"
+    "plist": "^3.0.4"
   },
   "engines": {
     "node": ">= 8.2.0"
