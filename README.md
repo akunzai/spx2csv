@@ -2,7 +2,7 @@
 
 ## Requirement
 
-- [Node](https://nodejs.org/) version >= 8.2.0
+- [Node](https://nodejs.org/) version >= 18
 
 ## Usage
 
