@@ -1,6 +1,6 @@
 {
   "name": "spx2csv",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "convert spx to csv",
   "main": "./index.js",
   "bin": "./index.js",
@@ -21,7 +21,8 @@
   "dependencies": {
     "plist": "^5.0.0"
   },
+  "type": "module",
   "engines": {
-    "node": ">= 8.2.0"
+    "node": ">= 18"
   }
 }

@@ -1,13 +1,13 @@
 #!/usr/bin/env node
-'use strict';
+
+import fs from 'node:fs';
+import * as plist from 'plist';
 
 if (process.argv.length < 3) {
   console.log('USAGE: node index.js InstalledApps.spx');
-  return;
+  process.exit(0);
 }
 
-const fs = require('fs');
-const plist = require('plist');
 const data = plist.parse(fs.readFileSync(process.argv[2], 'utf8'));
 let fields = undefined;
 let items = data[0]['_items'];
