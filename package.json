@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "plist": "^5.0.1"
+    "plist": "^5.1.1"
   },
   "type": "module",
   "engines": {
